@@ -17,7 +17,7 @@ class Solution{
 };
 
 int main(){
-    int n;
+    vector<int> n;
     cout<<"enter any amount of number as many times as you want: ";
     while(n< 0 || n != "" ){
         cin>>n;
