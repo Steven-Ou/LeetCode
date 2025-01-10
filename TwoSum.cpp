@@ -23,5 +23,6 @@ int main(){
         cin>>n;
     }
     cout<<"Enter the total target you want the system to calculate to: "<<endl;
+    cin>>k;
     cout<<"The integers that adds up to the target is: "<<TwoSum(n,k)<< "!"<<endl;
 }
