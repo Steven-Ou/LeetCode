@@ -16,14 +16,3 @@ class Solution{
         }
 };
 
-int main(){
-    vector<int> n;
-    cout<<"enter any amount of number as many times as you want: "<<endl;
-    while(n< 0 || n != "" ){
-        cin>>n;
-    }
-    cout<<"Enter the total target you want the system to calculate to: "<<endl;
-    int k;
-    cin>>k;
-    cout<<"The integers that adds up to the target is: "<<TwoSum(n,k)<< "!"<<endl;
-}
