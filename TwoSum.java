@@ -20,5 +20,6 @@ class Solution{
                     return new int[]{j,j-i};
         return null; 
     }
+        
 }
  */
