@@ -1,3 +1,4 @@
 class solution{
-    ListNode* dummyHead =0; 
+    ListNode* dummyHead =new ListNode(0); 
+
 };
