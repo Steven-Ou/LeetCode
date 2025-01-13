@@ -1,5 +1,5 @@
 class solution{
-    ListNode* dummy =new ListNode(0); 
-    ListNode* pt = dummy;
+    ListNode* bot =new ListNode(0); 
+    ListNode* pt = bot;
 
 };
