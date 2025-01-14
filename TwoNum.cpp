@@ -4,6 +4,8 @@ class solution{
         ListNode* pt = bot;
         int carry =0;
 
-        
+        while(l1 != nullptr|| l2!= nullptr || carry!=0){
+            int d1 = (l1 !=)
+        }
     }
 };
