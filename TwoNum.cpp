@@ -12,7 +12,7 @@ class solution{
             int di = sum%10;
             carry= sum/10;
 
-            
+            ListNode* newNode = new ListNode(di);
         }
     }
 };
