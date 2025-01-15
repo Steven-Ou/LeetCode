@@ -16,7 +16,8 @@ class solution{
             pt->next = newNode; 
             pt = pt->next;
 
-            l1 =(l1 != nullptr) ? l1->
+            l1 =(l1 != nullptr) ? l1->next : nullptr;
+            l2 =(l2 != nullptr) 
         }
     }
 };
