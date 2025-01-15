@@ -9,6 +9,7 @@ class solution{
             int d2 = (l2!=nullptr) ? l2->val:0;
 
             int sum = d1 + d2 + carry; 
+            int di = sum%10;
         }
     }
 };
