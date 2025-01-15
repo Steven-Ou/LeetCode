@@ -13,6 +13,7 @@ class solution{
             carry= sum/10;
 
             ListNode* newNode = new ListNode(di);
+            pt->next = newNode; 
         }
     }
 };
