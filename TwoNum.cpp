@@ -15,6 +15,8 @@ class solution{
             ListNode* newNode = new ListNode(di);
             pt->next = newNode; 
             pt = pt->next;
+
+            
         }
     }
 };
