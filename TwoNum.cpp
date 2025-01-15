@@ -21,5 +21,7 @@ class solution{
         }
 
         ListNode* result = bot->next;
+        delete bot;
+        
     }
 };
