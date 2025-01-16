@@ -2,7 +2,7 @@ class solution{
     public:
     ListNode* addTwoNum(ListNode* l1, ListNode* l2){
         ListNode* bot =new ListNode(0); 
-        ListNode* pt = bot;
+        ListNode* pt = bot; //creating an pointer
         int carry =0;
 
         while(l1 != nullptr|| l2!= nullptr || carry!=0){
