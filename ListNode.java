@@ -27,8 +27,8 @@ class Solution{
             l1 = (l1!=null) ? l1.next : null; 
             l2 = (l2!null)? l2.next : null;
         }
-        ListNode result = bot.next;
-        bot.next =null;
+        ListNode result = dum.next;
+        dum.next =null;
         return result; 
     }
 }
