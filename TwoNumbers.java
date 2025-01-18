@@ -23,5 +23,6 @@ class Solution{
         }
         ListNode result = bot.next;
         bot.next =null;
+        return result; 
     }
 }
