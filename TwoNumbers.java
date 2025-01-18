@@ -11,6 +11,7 @@ class Solution{
             int d2 = (l2!=null) ? l2.val:0;  // If not null turn it into the number, if null = 0. 
 
             int sum = d1 +d2+ carry; 
+            int digit = sum%10; 
         }
 
     }
