@@ -17,6 +17,9 @@ class Solution{
             ListNode newNode = new ListNode(di); 
             n.next = newNode;
             n = n.next; 
+
+            l1 = (l1!=null) ? l1.next : null; 
+            
         }
 
     }
