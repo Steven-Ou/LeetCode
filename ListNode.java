@@ -25,7 +25,7 @@ class Solution{
             n = n.next; 
 
             l1 = (l1!=null) ? l1.next : null; 
-            l2 = (l2!null)? l2.next : null;
+            l2 = (l2!=null)? l2.next : null;
         }
         ListNode result = dum.next;
         dum.next =null;
