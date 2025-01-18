@@ -9,6 +9,8 @@ class Solution{
         while(l1 != null || l2 != null || carry !=0){
             int d1 = (l1!= null) ? l1.val:0; 
             int d2 = (l2!=null) ? l2.val:0;  // If not null turn it into the number, if null = 0. 
+
+            int sum = d1 +d2+ carry; 
         }
 
     }
