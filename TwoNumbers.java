@@ -15,6 +15,7 @@ class Solution{
             carry = sum/10;
 
             ListNode newNode = new ListNode(di); 
+            n.next = newNode;
             
         }
 
