@@ -16,7 +16,7 @@ class Solution{
 
             ListNode newNode = new ListNode(di); 
             n.next = newNode;
-            
+            n = n.next; 
         }
 
     }
