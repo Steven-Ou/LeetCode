@@ -13,6 +13,8 @@ class Solution{
             int sum = d1 +d2+ carry; 
             int di = sum%10; 
             carry = sum/10;
+
+            ListNode newMode = new ListNode(di); 
         }
 
     }
