@@ -14,7 +14,8 @@ class Solution{
             int di = sum%10; 
             carry = sum/10;
 
-            ListNode newMode = new ListNode(di); 
+            ListNode newNode = new ListNode(di); 
+            
         }
 
     }
