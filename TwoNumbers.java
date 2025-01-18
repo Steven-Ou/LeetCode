@@ -6,6 +6,9 @@ class Solution{
         ListNode n = dum; 
         int carry =0; 
 
+        while(l1 != null || l2 != null || carry !=0){
+            
+        }
 
     }
 }
