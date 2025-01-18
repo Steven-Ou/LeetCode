@@ -8,6 +8,7 @@ class Solution{
 
         while(l1 != null || l2 != null || carry !=0){
             int d1 = (l1!= null) ? l1.val:0; 
+            int d2 = (l2!=null) ? l2.val:0; 
         }
 
     }
