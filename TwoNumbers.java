@@ -22,6 +22,6 @@ class Solution{
             l2 = (l2!null)? l2.next : null;
         }
         ListNode result = bot.next;
-
+        bot.next =null;
     }
 }
