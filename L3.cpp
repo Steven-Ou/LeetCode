@@ -5,6 +5,9 @@ using namespace std;
 class Solution {
    public:
     int lengthOfLongestSubstring(string S){
-        
+        for(int i =0; i< S.length();i++){
+            
+        }
+        if()
     }
 };
