@@ -7,7 +7,7 @@ class Solution {
     int lengthOfLongestSubstring(string S){
         vector <int> store; 
         for(int i =0; i< S.length();i++){
-            
+            store[i] == S[i];
         }
         if()
     }
