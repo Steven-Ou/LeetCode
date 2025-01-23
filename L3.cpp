@@ -17,6 +17,7 @@ class Solution {
             }
             //Adding the chars into the substring
             substring.insert(S[i]);
+            Mleng = max(Mleng, i- start +1); //updating maxLength
         }
         
     }
