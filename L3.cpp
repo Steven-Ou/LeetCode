@@ -10,8 +10,8 @@ class Solution {
         int Mleng =0; //Max length
         int start =0; //goes through every letter in the substring
         for(int i =0; i< S.length();i++){
-            while(){
-                
+            while(substring.find(S[i])!= substring.end()){
+
             }
         }
         
