@@ -14,7 +14,7 @@ class Solution {
                 if(temp[i] == store[i]){
                     cout<<temp[i];
                 }
-                
+                cout<<endl;
             }
         }
         
