@@ -15,6 +15,7 @@ class Solution {
                     cout<<temp[i];
                 }
                 cout<<endl;
+                break; 
             }
         }
         
