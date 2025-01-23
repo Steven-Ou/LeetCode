@@ -10,6 +10,9 @@ class Solution {
         for(int i =0; i< S.length();i++){
             store[i] == S[i];
             temp[i] == store[i];
+            for(int j =0; j<S.length();i++){
+                
+            }
         }
         
     }
