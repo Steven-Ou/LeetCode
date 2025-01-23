@@ -15,7 +15,7 @@ class Solution {
                 substring.erase(S[start]);
                 start++;
             }
-            
+            //
         }
         
     }
