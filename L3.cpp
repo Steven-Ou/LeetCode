@@ -1,5 +1,6 @@
 //Problem 3 of leet code
 #include <iostream>
+#include <unordered_set>
 using namespace std;
 
 class Solution {
