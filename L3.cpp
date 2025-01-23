@@ -13,6 +13,7 @@ class Solution {
         //if the character is already in the set, remove character from start
             while(substring.find(S[i])!= substring.end()){
                 substring.erase(S[start]);
+                start++;
             }
         }
         
