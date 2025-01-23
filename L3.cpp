@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
    public:
     int lengthOfLongestSubstring(string S){
-        unorder_set<char> substring; 
+        unorder_set<char> substring; //Tracking characters in the current substring
         string temp; 
         for(int i =0; i< S.length();i++){
             store[i] == S[i];
