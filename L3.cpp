@@ -11,6 +11,9 @@ class Solution {
             store[i] == S[i];
             temp[i] == store[i];
             for(int j =0; j<S.length();i++){
+                if(temp[i] == store[i]){
+                    cout<<temp[i];
+                }
                 
             }
         }
