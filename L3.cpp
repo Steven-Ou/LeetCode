@@ -27,5 +27,7 @@ int main(){
     Solution solution;
     string s;
     cout<<"enter a string of whatever letters combo you want: "<<endl;
-    
+    cin>>s;
+    cout<<"The length of the longest repeated letters from your string is: "<<
+    solution.lengthOfLongestSubstring(s)<<endl;
 }
