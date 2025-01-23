@@ -15,7 +15,8 @@ class Solution {
                 substring.erase(S[start]);
                 start++;
             }
-            //
+            //Adding the chars into the substring
+            substring.insert(S[i]);
         }
         
     }
