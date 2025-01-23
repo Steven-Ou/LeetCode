@@ -30,4 +30,5 @@ int main(){
     cin>>s;
     cout<<"The length of the longest repeated letters from your string is: "<<
     solution.lengthOfLongestSubstring(s)<<endl;
+    return 0;
 }
