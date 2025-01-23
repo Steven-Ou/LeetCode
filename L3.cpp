@@ -23,3 +23,6 @@ class Solution {
         return Mleng;
     }
 };
+int main(){
+    
+}
