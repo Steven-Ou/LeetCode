@@ -9,6 +9,7 @@ class Solution {
         string temp; 
         for(int i =0; i< S.length();i++){
             store[i] == S[i];
+            temp[i] == store[i];
         }
         if()
     }
