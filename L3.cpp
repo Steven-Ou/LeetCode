@@ -24,5 +24,8 @@ class Solution {
     }
 };
 int main(){
+    Solution solution;
+    string s;
+    cout<<"enter a string of whatever letters combo you want: "<<endl;
     
 }
