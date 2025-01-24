@@ -16,6 +16,9 @@ class Solution{
                 n = n*10 + remain;
                 r/=10; 
             }
-            
+            if(n == num){
+                return true;
+            }
+            return false; 
         }
 };
