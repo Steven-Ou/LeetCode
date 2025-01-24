@@ -8,8 +8,8 @@ class Solution{
             int r =0; 
             while(num!=0){
                 int remain = num%10; //Storing the last digit into the remain
-                r = r *10 + remain; /
-                num/= 10; 
+                r = r *10 + remain; //then adding everything all up into the reverse
+                num/= 10; //
             }
             int n =0;
             while(r!=0){
