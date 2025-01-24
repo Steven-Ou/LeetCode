@@ -10,5 +10,6 @@ class Solution{
                 r = r *10 + remain;
                 num/= 10; 
             }
+            
         }
 };
