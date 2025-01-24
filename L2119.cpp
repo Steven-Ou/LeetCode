@@ -5,6 +5,8 @@ class Solution{
     public:
         bool isSameAfterReversals(int num){
             int r =0; 
-            
+            while(num!=0){
+                
+            }
         }
 };
