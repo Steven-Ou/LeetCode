@@ -17,7 +17,7 @@ class Solution{
                 n = n*10 + remain;
                 r/=10; 
             }
-            if(a == num){ //checks if a is equals to the second reversal
+            if(a == n){ //checks if a is equals to the second reversal
                 return true;
             }
             return false; 
