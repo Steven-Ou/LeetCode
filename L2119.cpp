@@ -13,6 +13,7 @@ class Solution{
             int n =0;
             while(r!=0){
                 int remain = r%10;
+                n = n*10 + remain;
             }
             
         }
