@@ -14,6 +14,7 @@ class Solution{
             while(r!=0){
                 int remain = r%10;
                 n = n*10 + remain;
+                r/=10; 
             }
             
         }
