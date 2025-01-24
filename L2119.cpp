@@ -4,7 +4,7 @@ using namespace std;
 class Solution{
     public:
         bool isSameAfterReversals(int num){
-            int a =num; 
+            int a =num;  //The num will be stored into a so that it can be use to check at the end
             int r =0; 
             while(num!=0){
                 int remain = num%10;
