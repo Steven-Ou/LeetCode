@@ -24,17 +24,19 @@ class Solution{
         }
 };
 /* A different solution but it's weird
-class Solution {
-public:
-    bool isSameAfterReversals(int num) {
+  bool isSameAfterReversals(int num) {
         if(num==0){
             return true;
-            
         }
-        if(num%10!=0)
-        return true;
-        else
+        int a=1;
+        int digit=num%10;
+        if(digit==0){
+            a=a+1;
+        }
+        if(a==1){
+            return true;
+        }
         return false;
+
     }
-};
 */
