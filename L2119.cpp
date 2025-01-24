@@ -23,7 +23,7 @@ class Solution{
             return false; 
         }
 };
-/* A different solution but it's weird
+/*
   bool isSameAfterReversals(int num) {
         if(num==0){
             return true;
