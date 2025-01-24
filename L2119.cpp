@@ -7,8 +7,8 @@ class Solution{
             int a =num;  //The num will be stored into a so that it can be use to check at the end
             int r =0; 
             while(num!=0){
-                int remain = num%10;
-                r = r *10 + remain;
+                int remain = num%10; //Storing the last digit into the remain
+                r = r *10 + remain; /
                 num/= 10; 
             }
             int n =0;
