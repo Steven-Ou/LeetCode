@@ -7,6 +7,9 @@ class Solution{
             r = remain + r*10; 
             num = num/10; 
         }
-        
+        int r2 = 0; 
+        while(r2 !=0){
+            
+        }
     }
 }
