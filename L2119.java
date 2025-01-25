@@ -16,5 +16,6 @@ class Solution{
         if(r2 == s){
             return true;
         }
+        return false;
     }
 }
