@@ -5,7 +5,7 @@ class Solution{
         while(num!=0){
             int remain = num%10; 
             r = remain + r*10; 
-            r 
+            num = num/10; 
         }
     }
 }
