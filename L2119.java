@@ -10,7 +10,7 @@ class Solution{
         int r2 = 0; 
         while(r2 !=0){
             int remain = r%10;
-            
+
         }
     }
 }
