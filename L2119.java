@@ -4,7 +4,7 @@ class Solution{
         int r = 0;  //reversal 1
         while(num!=0){
             int remain = num%10; 
-            r = remain + r*10; 
+            r = r*10+remain ; 
             num = num/10; 
         }
         int r2 = 0; 
