@@ -13,5 +13,8 @@ class Solution{
             r2 = r2*10 + remain; 
             r = r/10; 
         }
+        if(r2 = s){
+            return true;
+        }
     }
 }
