@@ -3,8 +3,9 @@ class Solution{
         int s = num; 
         int r = 0;  //reversal 1
         while(num!=0){
-            r = num%10 + r*10; 
-            
+            int remain = num%10; 
+            r = remain + r*10; 
+            r 
         }
     }
 }
