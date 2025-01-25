@@ -8,7 +8,7 @@ class Solution{
             num = num/10; 
         }
         int r2 = 0; 
-        while(r2 !=0){
+        while(r !=0){
             int remain = r%10;
             r2 = r2*10 + remain; 
             r = r/10; 
