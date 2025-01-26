@@ -17,6 +17,7 @@ class Solution{
                     Sub.remove(s.charAt(first));
                     first++;
                 }
+                Sub.add(s.charAt(i));
             }
         }
     }   
