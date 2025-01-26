@@ -9,7 +9,9 @@ class Solution{
         int first =0; 
         
         for(int i =0; i<n; i++){
-            
+            if(!Sub.contains(s.charAt(i))){
+                
+            }
         }
     }   
 }
