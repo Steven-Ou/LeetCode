@@ -14,7 +14,8 @@ class Solution{
                 MaxL = Math.max(MaxL, i- first +1);
             }else{
                 while(Sub.contains(s.charAt(i))){
-
+                    Sub.remove(s.charAt(first));
+                    first++;
                 }
             }
         }
