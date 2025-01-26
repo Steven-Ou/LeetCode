@@ -20,5 +20,6 @@ class Solution{
                 Sub.add(s.charAt(i));
             }
         }
+        return MaxL;
     }   
 }
