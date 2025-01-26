@@ -10,7 +10,8 @@ class Solution{
         
         for(int i =0; i<n; i++){
             if(!Sub.contains(s.charAt(i))){
-                Sub.add(s.charAt(i))
+                Sub.add(s.charAt(i));
+                MaxL = Math.max(MaxL, i- first +1);
             }
         }
     }   
