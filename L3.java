@@ -13,7 +13,9 @@ class Solution{
                 Sub.add(s.charAt(i));
                 MaxL = Math.max(MaxL, i- first +1);
             }else{
-                
+                while(Sub.contains(s.charAt(i))){
+
+                }
             }
         }
     }   
