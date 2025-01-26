@@ -12,6 +12,8 @@ class Solution{
             if(!Sub.contains(s.charAt(i))){
                 Sub.add(s.charAt(i));
                 MaxL = Math.max(MaxL, i- first +1);
+            }else{
+                
             }
         }
     }   
