@@ -1,6 +1,6 @@
 class Solution {
     public boolean isPowerOfThree(int n){
-        while () {
+        while (n>1) {
             
         }
     }
