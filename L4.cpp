@@ -13,6 +13,6 @@ class Solution {
             v.push_back(num2);
         }
         //Sorting to find median
-        sort(v.begin(),v.end());
+        sort(v.begin(),v.end()); // 0(nlogn)
     }
 };
