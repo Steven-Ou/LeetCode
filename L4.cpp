@@ -17,5 +17,6 @@ class Solution {
 
         int n = v.size();
         
+        return n%2?v[n/2]:(v[n/2-1]+v[n/2])/2.0; 
     }
 };
