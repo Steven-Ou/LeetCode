@@ -12,5 +12,7 @@ class Solution {
         for(auto num:num2){
             v.push_back(num2);
         }
+        //Sorting to find median
+        sort(v.begin(),v.end());
     }
 };
