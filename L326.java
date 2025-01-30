@@ -1,3 +1,5 @@
 class Solution {
-    public boolean is
+    public boolean isPowerOfThree(int n){
+        
+    }
 }
