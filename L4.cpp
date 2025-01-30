@@ -15,7 +15,7 @@ class Solution {
         //Sorting to find median
         sort(v.begin(),v.end()); // 0(nlogn)
 
-        int n = v.size();
+        int n = v.size();//0(n)
         
         return n%2?v[n/2]:(v[n/2-1]+v[n/2])/2.0; 
     }
