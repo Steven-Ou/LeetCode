@@ -8,5 +8,8 @@ class Solution {
         for(auto num:num1){
             v.push_back(num);
         }
+        for(auto num:num2){
+            v.push_back(num2);
+        }
     }
 };
