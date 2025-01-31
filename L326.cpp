@@ -7,8 +7,8 @@ class Solution{
             if(n==0){
                 return false;
             }
-            while(){
-                
+            while(n%3==0){
+
             }
         }
 };
