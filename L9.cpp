@@ -10,6 +10,9 @@ class Solution{
                 store = x%10;
                 x/=10; 
             }
+            if{
+        
+            }
             
         } 
 };
