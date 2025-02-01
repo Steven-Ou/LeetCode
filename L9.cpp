@@ -21,7 +21,9 @@ class Solution{
 class Solution{
     public:
         bool isPalidrome(int x){
-        
+            if(x<0){
+            
+            }
         }
 }
 */
