@@ -25,6 +25,8 @@ class Solution{
                 return false;
             }
             int s =x; 
+            while(x!=0){
+            }
         }
 }
 */
