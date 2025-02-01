@@ -7,7 +7,7 @@ class Solution{
             vector <int> store;
             vector <int> s; 
             while(x!=0){
-            store = x%10;
+                store = x%10;
             }
             
         } 
