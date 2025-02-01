@@ -4,7 +4,7 @@ using namespace std;
 class Solution{
     public:
         bool isPalindrome(int x){
-            int store =0; 
+            double store =0; 
             int s = x; 
             while(x!=0){
                 int remainder = x%10;
