@@ -25,7 +25,7 @@ class Solution{
                 return false;
             }
             int s =x; 
-            int store;
+            long store;
             while(x!=0){
                 int remainder = x%10;
                 store = store*10+remainder; 
