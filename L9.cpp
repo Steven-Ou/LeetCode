@@ -8,7 +8,7 @@ class Solution{
             int s = x; 
             while(x!=0){
                 int remainder = x%10;
-                store = remainder + store*10
+                store = remainder + store*10;
                 x/=10; 
             }
             if(){
