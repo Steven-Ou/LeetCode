@@ -14,6 +14,6 @@ class Solution{
             if(store != s){
                 return false;
             }
-            
+            return true; 
         } 
 };
