@@ -7,10 +7,11 @@ class Solution{
             int store;
             int s = x; 
             while(x!=0){
-                store = x%10;
+                int remainder = x%10;
+                store = 
                 x/=10; 
             }
-            if{
+            if(){
         
             }
             
