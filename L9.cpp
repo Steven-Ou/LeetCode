@@ -6,5 +6,6 @@ class Solution{
         bool isPalindrome(int x){
             vector <int> store;
             vector <int> s; 
+            for(int i=0; i<x; i++)
         } 
 };
