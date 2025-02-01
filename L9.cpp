@@ -11,8 +11,8 @@ class Solution{
                 store = remainder + store*10;
                 x/=10; 
             }
-            if(){
-        
+            if(store != s){
+                return false;
             }
             
         } 
