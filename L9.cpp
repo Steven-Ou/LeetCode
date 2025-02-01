@@ -6,9 +6,9 @@ class Solution{
         bool isPalindrome(int x){
             vector <int> store;
             vector <int> s; 
-          
+            while(x!=0){
             store = x%10;
-            
+            }
             
         } 
 };
