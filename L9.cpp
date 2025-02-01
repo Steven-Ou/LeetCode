@@ -20,6 +20,8 @@ class Solution{
 /*
 class Solution{
     public:
-    
+        bool isPalidrome(int x){
+        
+        }
 }
 */
