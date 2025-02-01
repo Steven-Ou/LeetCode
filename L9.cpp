@@ -4,11 +4,11 @@ using namespace std;
 class Solution{
     public:
         bool isPalindrome(int x){
-            int store;
+            int store =0; 
             int s = x; 
             while(x!=0){
                 int remainder = x%10;
-                store = 
+                store = remainder + store*10
                 x/=10; 
             }
             if(){
