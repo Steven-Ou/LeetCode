@@ -22,7 +22,7 @@ class Solution{
     public:
         bool isPalidrome(int x){
             if(x<0){
-            
+                return false;
             }
         }
 }
