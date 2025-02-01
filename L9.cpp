@@ -6,7 +6,7 @@ class Solution{
         bool isPalindrome(int x){
             double store =0; 
             int s = x; 
-            while(x!=0){
+            while(x>0){
                 int remainder = x%10;
                 store = remainder + store*10;
                 x/=10; 
