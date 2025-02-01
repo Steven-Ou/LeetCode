@@ -29,6 +29,7 @@ class Solution{
             while(x!=0){
                 int remainder = x%10;
                 store = store*10+remainder; 
+                x/=10;
             }
         }
 }
