@@ -31,6 +31,7 @@ class Solution{
                 store = store*10+remainder; 
                 x/=10;
             }
+            return store == s;
         }
 }
 */
