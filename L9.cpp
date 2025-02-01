@@ -26,6 +26,8 @@ class Solution{
             }
             int s =x; 
             while(x!=0){
+                int remainder = x%10;
+                int 
             }
         }
 }
