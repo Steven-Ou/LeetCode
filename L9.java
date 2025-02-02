@@ -10,7 +10,7 @@ class Solution{
             rev = rev * 10 + rem; 
             x/=10;
        }
-       
+       return rev == a; 
     }
     
 }
