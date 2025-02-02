@@ -7,6 +7,7 @@ class Solution{
        }
        while(x!=0){
             int rem = x%10;
+            rev = 
        }
     }
     
