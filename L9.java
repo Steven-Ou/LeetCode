@@ -6,7 +6,7 @@ class Solution{
         return false; 
        }
        while(x!=0){
-        
+            int rem = x%10;
        }
     }
     
