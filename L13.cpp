@@ -14,7 +14,7 @@ class Solution{
             int M =1000;
             vector <string> store; 
             for(char i = 0; i< s.length(); i++){
-                if(s== "I" || s == V || s == X|| s == L|| s == C ||s==D|| s==M){
+                if(s== "I" || s == "V" || s == X|| s == L|| s == C ||s==D|| s==M){
                     store += s; 
                 }
             }
