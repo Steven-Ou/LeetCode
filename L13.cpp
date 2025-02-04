@@ -10,6 +10,6 @@ class Solution{
             int L = 50; 
             int C =100;
             int D = 500;
-            
+            int M =1000;
         }
 }
