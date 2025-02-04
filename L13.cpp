@@ -9,6 +9,7 @@ class Solution{
             int X = 10;
             int L = 50; 
             int C =100;
+            int D = 500;
             
         }
 }
