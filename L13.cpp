@@ -6,6 +6,6 @@ class Solution{
         int romanToInt(String s){
             int I = 1;
             int V = 5;
-        
+            int X = 10;
         }
 }
