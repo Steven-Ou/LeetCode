@@ -17,6 +17,9 @@ class Solution{
                 char ch = s[i];
                 
                 if(ch == 'I'){
+                    store.push_back(I); 
+                }
+                else if{
                     
                 }
             }
