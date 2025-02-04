@@ -2,7 +2,7 @@
 using namespace std;
 
 class Solution{
-    public 
+    public: 
     int romanToInt(String s){
 
     }
