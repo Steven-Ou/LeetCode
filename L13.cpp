@@ -11,6 +11,6 @@ class Solution{
             int C =100;
             int D = 500;
             int M =1000;
-            if(s== I || s == V || s == X|| s == L|| s == C ||s==D)
+            if(s== I || s == V || s == X|| s == L|| s == C ||s==D|| s==M)
         }
 }
