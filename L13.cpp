@@ -14,6 +14,7 @@ class Solution{
             int M =1000;
             vector <int> store; 
             for(int i = 0; i< s.length(); i++){
+                char ch = s[i];
                 if(s[i]== "I" || s[i] == "V" || s[i] == "X"|| s[i] == "L"|| s[i] == "C" ||s[i]=="D"|| s[i]=="M"){
                     store += s; 
                 }
