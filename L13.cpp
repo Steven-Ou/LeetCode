@@ -8,6 +8,7 @@ class Solution{
             int V = 5;
             int X = 10;
             int L = 50; 
+            int C =100;
             
         }
 }
