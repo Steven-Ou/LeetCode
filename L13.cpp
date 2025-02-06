@@ -36,7 +36,7 @@ class Solution{
                 else if(ch == 'D'){
                     store.push_back(L);
                 }
-                else if(ch == 'L'){
+                else if(ch == 'M'){
                     store.push_back(L);
                 }
             }
