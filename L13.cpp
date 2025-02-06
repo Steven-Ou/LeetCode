@@ -43,8 +43,8 @@ class Solution{
             
             int total =0;
             for(int i=0; i<store.size();i++){
-                if(){
-                    
+                if(i<store.size()-1 && ){
+
                 }
             }
         }
