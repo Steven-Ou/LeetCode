@@ -12,8 +12,9 @@ class Solution{
             int C =100;
             int D = 500;
             int M =1000;
-            
+
             vector <int> store; 
+            
             for(int i = 0; i< s.length(); i++){
                 char ch = s[i];
                 
