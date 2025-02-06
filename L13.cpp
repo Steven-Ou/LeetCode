@@ -30,7 +30,7 @@ class Solution{
                 else if(ch == 'L'){
                     store.push_back(L);
                 }
-                else if(ch == 'L'){
+                else if(ch == 'C'){
                     store.push_back(L);
                 }
                 else if(ch == 'L'){
