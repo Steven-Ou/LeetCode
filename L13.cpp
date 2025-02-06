@@ -40,7 +40,7 @@ class Solution{
                     store.push_back(M);
                 }
             }
-
             
+            int total =0;
         }
 }
