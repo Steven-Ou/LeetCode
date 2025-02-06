@@ -46,7 +46,7 @@ class Solution{
                 if(i<store.size()-1 && store[i]<store[i+1]){
                     total -= store[i];
                 }else{
-                    
+                    total += store[i];
                 }
             }
         }
