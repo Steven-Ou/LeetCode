@@ -14,15 +14,15 @@ class Solution{
             int M =1000;
 
             vector <int> store; 
-            
+
             for(int i = 0; i< s.length(); i++){
                 char ch = s[i];
                 
                 if(ch == 'I'){
                     store.push_back(I); 
                 }
-                else if{
-
+                else if(ch == 'V'){
+                    
                 }
             }
         }
