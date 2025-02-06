@@ -24,6 +24,9 @@ class Solution{
                 else if(ch == 'V'){
                     store.push_back(V);
                 }
+                else if(ch == 'X'){
+                    
+                }
             }
         }
 }
