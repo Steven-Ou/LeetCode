@@ -27,7 +27,7 @@ class Solution{
                 else if(ch == 'X'){
                     store.push_back(X);
                 }
-                else if(ch == 'X'){
+                else if(ch == 'L'){
                     store.push_back(X);
                 }
             }
