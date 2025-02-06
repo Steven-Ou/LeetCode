@@ -37,7 +37,7 @@ class Solution{
                     store.push_back(L);
                 }
                 else if(ch == 'M'){
-                    store.push_back(L);
+                    store.push_back(M);
                 }
             }
         }
