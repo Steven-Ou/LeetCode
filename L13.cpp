@@ -49,5 +49,7 @@ class Solution{
                     total += store[i];
                 }
             }
+
+            return total;
         }
 }
