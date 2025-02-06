@@ -22,7 +22,7 @@ class Solution{
                     store.push_back(I); 
                 }
                 else if(ch == 'V'){
-                    
+                    store.push_back(V);
                 }
             }
         }
