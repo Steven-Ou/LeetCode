@@ -36,6 +36,9 @@ class Solution{
                 else if(ch == 'L'){
                     store.push_back(L);
                 }
+                else if(ch == 'L'){
+                    store.push_back(L);
+                }
             }
         }
 }
