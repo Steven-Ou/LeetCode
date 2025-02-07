@@ -69,6 +69,7 @@ public:
         }
         return -1;
     }
+    
     int romanToInt(string s) {
         int c,n=0;
         char st;
