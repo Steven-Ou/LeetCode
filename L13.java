@@ -23,7 +23,7 @@ class Solution{
                 n-=c;
             }
             else{
-                
+                n+=c;
             }
         }
 
