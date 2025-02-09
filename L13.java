@@ -13,6 +13,7 @@ class Solution{
     }
     public int romanToInt(String s){
         int c,n =0; 
+        char st;
         
     }    
 }
