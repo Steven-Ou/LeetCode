@@ -14,6 +14,8 @@ class Solution{
     public int romanToInt(String s){
         int c,n =0; 
         char st;
-        
+        for(int i=0;i<s.length();i++){
+            
+        }
     }    
 }
