@@ -15,9 +15,12 @@ class Solution{
         int c,n =0; 
         char st;
         for(int i=0;i<s.length();i++){
-            c = val(s[i]);
+            c = val(s.charAt(i));
             if(c==-1){
                 return -1;
+            }
+            if(val(s.charAt(i+1))>val(s.charAt(i))){
+                
             }
         }
 
