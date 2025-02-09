@@ -19,7 +19,7 @@ class Solution{
             if(c==-1){
                 return -1;
             }
-            if(val(s.charAt(i+1))>val(s.charAt(i))){
+            if()){
                 n-=c;
             }
             else{
