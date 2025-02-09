@@ -19,7 +19,7 @@ class Solution{
             if(c==-1){
                 return -1;
             }
-            if(){
+            if(i<s.length()-1 &&){
                 n-=c;
             }
             else{
