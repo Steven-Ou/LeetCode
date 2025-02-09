@@ -22,6 +22,9 @@ class Solution{
             if(val(s.charAt(i+1))>val(s.charAt(i))){
                 n-=c;
             }
+            else{
+                
+            }
         }
 
     }    
