@@ -12,6 +12,6 @@ class Solution{
         return -1;
     }
     public int romanToInt(String s){
-
+        int c,n =0; 
     }    
 }
