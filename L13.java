@@ -26,6 +26,7 @@ class Solution{
                 n+=c;
             }
         }
+        return n;
 
     }    
 }
