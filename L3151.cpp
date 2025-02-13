@@ -7,7 +7,7 @@ class Solution{
             for(int i =0; i<nums; i++){
                 int temp; 
                 temp == nums[i];
-                if(temp != nums[i+1]){
+                if((temp %2==0) == (nums[i+1]%2==0)){
                     return false;
                 }
             }
