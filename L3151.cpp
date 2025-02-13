@@ -3,7 +3,7 @@ using namespace std;
 class Solution{
     public:
         bool isArraySpecial(vector<int>& nums){
-            vector <int> s = nums; 
+          
             if(nums.size()<=1 ){
                 return true;
             }
