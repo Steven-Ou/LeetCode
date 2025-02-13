@@ -7,9 +7,9 @@ class Solution{
             for(int i =0; i<nums; i++){
                 int temp; 
                 temp == nums[i];
-                if(temp%2 ==0 &&){
-                    
-                } 
+                if(temp != nums[i+1]){
+                    return false;
+                }
             }
         }
 };
