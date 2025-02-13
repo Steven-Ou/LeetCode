@@ -4,6 +4,9 @@ class Solution{
     public:
         bool isArraySpecial(vector<int>& nums){
             vector <int> s = nums; 
+            if(nums.size()<=1 ){
+                return true;
+            }
             for(int i =0; i<nums.size()-1; i++){
                 int temp; 
                 temp = nums[i];
