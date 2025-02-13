@@ -6,7 +6,7 @@ class Solution{
             vector <int> s = nums; 
             for(int i =0; i<nums; i++){
                 int temp; 
-                temp == nums[i];
+                temp = nums[i];
                 if((temp %2== nums[i+1]%2)){
                     return false;
                 }
