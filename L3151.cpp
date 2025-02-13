@@ -2,7 +2,9 @@
 using namespace std;
 class Solution{
     public:
-        bool
+        bool isArraySpecial(vector<int>& nums){
+            
+        }
 };
 int main(){
 
