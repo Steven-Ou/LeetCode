@@ -6,7 +6,9 @@ class Solution{
         for(int i=0; i<nums.length-1;i++){
             int temp;
             temp =nums[i];
-            
+            if(temp%2 == num[i+1]%2){
+                
+            }
         }
     }
 }
