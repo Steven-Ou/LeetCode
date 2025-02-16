@@ -7,7 +7,7 @@ class Solution{
             int temp;
             temp =nums[i];
             if(temp%2 == num[i+1]%2){
-                
+                return false;
             }
         }
     }
