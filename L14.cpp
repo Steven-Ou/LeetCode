@@ -1,4 +1,4 @@
-class L14
+class Solution
 {
 private:
 
