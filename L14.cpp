@@ -1,6 +1,4 @@
 class Solution{
-private:
-
 public:
   
 };
