@@ -6,7 +6,7 @@ class Solution{
         string longestCommonPrefix(vector<string>& strs){
             vector<string> store = strs; 
             for(char i =0; i<strs.size(); i++){
-                if(store.substr())    
+                if(store.substr([i])+store.substr([i+1]))    
             }
         }
   
