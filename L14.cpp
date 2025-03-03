@@ -12,7 +12,7 @@ class Solution{
 
             for(char i =0; i<strs.size(); i++){
                 while(strs[i].find(store)!=0){
-                    store =
+                    store = store.substr(0,)
                 }
             }
         }
