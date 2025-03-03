@@ -11,8 +11,8 @@ class Solution{
             string store = strs[0]; 
 
             for(char i =0; i<strs.size(); i++){
-                while(){
-                    
+                while(strs[i].find(store)!=0){
+
                 }
             }
         }
