@@ -14,7 +14,7 @@ class Solution{
                 while(strs[i].find(store)!=0){
                     store = store.substr(0,store.length()-1); 
                     if(store.empty()){
-                        
+                        return ""; 
                     }
                 }
             }
