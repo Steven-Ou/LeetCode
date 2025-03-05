@@ -13,6 +13,9 @@ class Solution{
             for(char i =0; i<strs.size(); i++){
                 while(strs[i].find(store)!=0){
                     store = store.substr(0,store.length()-1); 
+                    if(store.empty()){
+                        
+                    }
                 }
             }
         }
