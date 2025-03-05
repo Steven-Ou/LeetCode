@@ -1,5 +1,7 @@
 class Solution{
     public String longestCommonPrefix(String[] strs){
-        if(str)
+        if(strs.empty(){
+            
+        })
     }
 }
