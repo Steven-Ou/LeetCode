@@ -5,8 +5,9 @@ class Solution{
         }
     }
     public boolean isEmpty(String[] arr){
-        if(arr.length== 0)
-        return true;
+        if(arr.length== 0){
+            return true;
+        }
         else
     }
 }
