@@ -12,7 +12,7 @@ class Solution{
                 if(count ==0){
                     return "";
                 }
-                store = store.substring(0, count)
+                store = store.substring(0, count);
             }
         }
         return store; 
