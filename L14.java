@@ -5,8 +5,8 @@ class Solution{
         }
         String store = strs;
 
-        for(){
-            
+        for(char i=0; i<strs.length; i++){
+
         }
     }
 }
