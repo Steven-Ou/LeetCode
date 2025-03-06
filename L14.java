@@ -4,5 +4,9 @@ class Solution{
             return "";
         }
         String store = strs;
+
+        for(){
+            
+        }
     }
 }
