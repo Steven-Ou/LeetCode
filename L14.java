@@ -7,7 +7,7 @@ class Solution{
         int count = store.length();
         for(char i=0;i<strs.length; i++){
             String Loop = strs[i];
-            while(count >){
+            while(count > Loop.length() || !store.equals(Loop.substring(i))){
                 
             }
         }
