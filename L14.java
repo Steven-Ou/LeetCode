@@ -6,7 +6,8 @@ class Solution{
         String store = strs[0];
         int count = store.length();
         for(char i=0;i<strs.length; i++){
-            while(){
+            String Loop = strs[i];
+            while(count >){
                 
             }
         }
