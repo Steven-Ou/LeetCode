@@ -15,5 +15,6 @@ class Solution{
                 store = store.substring(0, count)
             }
         }
+        return store; 
     }
 }
