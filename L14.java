@@ -3,5 +3,6 @@ class Solution{
         if(strs.length== 0){
             return "";
         }
+        
     }
 }
