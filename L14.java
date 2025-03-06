@@ -6,7 +6,9 @@ class Solution{
         String store = strs;
 
         for(char i=0;i<strs.length; i++){
-
+            while (condition) {
+                
+            }
         }
     }
 }
