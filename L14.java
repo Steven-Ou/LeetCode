@@ -3,6 +3,6 @@ class Solution{
         if(strs.length== 0){
             return "";
         }
-        string store = strs;
+        String store = strs;
     }
 }
