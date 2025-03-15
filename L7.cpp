@@ -7,6 +7,6 @@ class Solution{
             if(x<10){
                 return x;
             }
-
+            int num = x;  
         }
 };
