@@ -10,5 +10,6 @@ class Solution{
             int num; 
             num=x%10;
             x=x/10;  
+            reverse(10*num+x);
         }
 };
