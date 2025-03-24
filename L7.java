@@ -1,6 +1,6 @@
 class Solution{
     public int reverse(int x){
-        long num =0;
+        int num =0;
         while(x!=0){
             int store = x%10;
             if(num >(Integer.MAX_VALUE - store))) {
@@ -9,6 +9,6 @@ class Solution{
             num = num *10 + store; 
             x/=10;
         }
-        return (x<0);
+        return (x<0) ?(-num):num;
     }
 }
