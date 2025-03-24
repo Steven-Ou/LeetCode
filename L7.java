@@ -1,6 +1,6 @@
 class Solution{
     public int reverse(int x){
-        int num =0;
+        int num =Math.abs(x);
         while(x!=0){
             int store = x%10;
             if(num >(Integer.MAX_VALUE - store)) {
