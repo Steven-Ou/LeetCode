@@ -9,6 +9,6 @@ class Solution{
             num = num *10 + store; 
             x/=10;
         }
-        return num;
+        return (x<0);
     }
 }
