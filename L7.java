@@ -3,7 +3,7 @@ class Solution{
         long num =0;
         while(x!=0){
             int store = x%10;
-            if(num >)) {
+            if(num >(Integer.MAX_VALUE - store))) {
                 
             }
             num = num *10 + store; 
