@@ -2,7 +2,7 @@ class Solution{
     public int reverse(int x){
         int num =Math.abs(x);
         int reverse =0; 
-        while(x!=0){
+        while(num!=0){
             int store = x%10;
             if(num >(Integer.MAX_VALUE - store)) {
                 return 0;
