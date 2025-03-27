@@ -4,7 +4,7 @@ class Solution{
         while(x!=0){
             int store = x%10;
             x/=10;
-            if(reverse >(Integer.MAX_VALUE - store)/10) {
+            if(reverse >(Integer.MAX_VALUE)/10 || (reverse)) {
                 return 0;
             }
             reverse = reverse *10 + store; 
