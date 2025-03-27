@@ -10,6 +10,6 @@ class Solution{
             reverse = reverse *10 + store; 
             num/=10;
         }
-        return (x<0) ?(-num):num;
+        return (x<0) ?(-reverse):reverse;
     }
 }
