@@ -11,7 +11,6 @@ class Solution{
                 return 0;
             }
             reverse = reverse *10 + store; 
-            x/=10;
         }
         return (x<0) ?(-reverse):reverse;
     }
