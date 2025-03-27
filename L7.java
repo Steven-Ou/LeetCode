@@ -3,7 +3,7 @@ class Solution{
         int num =Math.abs(x);
         int reverse =0; 
         while(num!=0){
-            int store = x%10;
+            int store = num%10;
             if(num >(Integer.MAX_VALUE - store)/10) {
                 return 0;
             }
