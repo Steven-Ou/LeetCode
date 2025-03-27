@@ -3,6 +3,7 @@ class Solution{
         int reverse =0; 
         while(x!=0){
             int store = x%10;
+            x/=10;
             if(reverse >(Integer.MAX_VALUE - store)/10) {
                 return 0;
             }
