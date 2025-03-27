@@ -7,7 +7,7 @@ class Solution{
             if(reverse >(Integer.MAX_VALUE - store)/10) {
                 return 0;
             }
-            num = num *10 + store; 
+            reverse = reverse *10 + store; 
             x/=10;
         }
         return (x<0) ?(-num):num;
