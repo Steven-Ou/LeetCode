@@ -7,8 +7,11 @@ class Solution{
             if(reverse >(Integer.MAX_VALUE)/10 || (reverse == Integer.MAX_VALUE/10 && store >7)) {
                 return 0;
             }
+            if(reverse >(Integer.MAX_VALUE)/10 || (reverse == Integer.MAX_VALUE/10 && store >7)) {
+                return 0;
+            }
             reverse = reverse *10 + store; 
-            num/=10;
+            x/=10;
         }
         return (x<0) ?(-reverse):reverse;
     }
