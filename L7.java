@@ -1,17 +1,14 @@
-class Solution{
-    public int reverse(int x){
-        int reverse =0; 
+class Solution {
+    public int reverse(int x) {
+        int num=0;
         while(x!=0){
-            int store = x%10;
-            x/=10;
-            if(reverse >(Integer.MAX_VALUE)/10 || (reverse == Integer.MAX_VALUE/10 && store >7)) {
+            int temp=x%10;
+            if(num>Integer.MAX_VALUE/10 || num<Integer.MIN_VALUE/10){
                 return 0;
             }
-            if(reverse >(Integer.MAX_VALUE)/10 || (reverse == Integer.MAX_VALUE/10 && store >7)) {
-                return 0;
-            }
-            reverse = reverse *10 + store; 
-        }
-        return reverse;
+            num=num*10+temp;
+            x=x/10;
+        };
+        return num;
     }
 }
