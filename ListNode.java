@@ -1,6 +1,6 @@
 
 public class ListNode {
-    int val;
+    int val; //initialize the value of the node
     ListNode next;
     ListNode() {}
     ListNode(int val) { this.val = val; }
