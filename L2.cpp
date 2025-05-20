@@ -13,7 +13,7 @@ class solution{
             int d1 = (l1 != nullptr) ? l1->val:0; //If l1 has number in it, it will be set to d1, else it will be set to 0. 
             int d2 = (l2!=nullptr) ? l2->val:0; //same as line 9
 
-            int sum = d1 + d2 + carry; 
+            int sum = d1 + d2 + carry; //adding the two numbers and carry
             int di = sum%10;
             carry= sum/10;
 
