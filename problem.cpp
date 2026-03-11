@@ -7,4 +7,5 @@ password must contain 2 punctuation, 2 letter or more, 2 capital letters, must h
 //Api is application programming interface, 
 // The word applications can be thought as a software with an unique function, 
 // the word interface can be thought as a contract of a service between two application. 
-// And then API is basically how 
+// And then API is basically how When we program we try to 
+// use our software to come into contract with another application. 
