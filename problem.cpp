@@ -82,11 +82,16 @@ int fizzbuzz(int x)
 
 //     }
 // }
+//In palindrome the letter of the ending and beginning must be the same. 
 bool Palindrome(int x ){
     left= 0;
     right= x.length()-1;
     while(left<right){
-        
+        if (x[left]!= x[right]){
+            return false;
+        }
+        left++;//continuing going to the next number
+        right--;//Continuing going left.
     }
 }
 int main()
