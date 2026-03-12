@@ -89,7 +89,7 @@ int main()
     string y;
     cout << "Give a word" << endl;
     cin >> y;
-    cout << "Reversed: " << reversal(word) << endl;
+    cout << "Reversed: " << reversal(y) << endl;
     cout << "enter a number:" << endl;
     cin >> x;
     fizzbuzz(x);
