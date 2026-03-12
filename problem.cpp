@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std; 
 /*Create a password that doesnt accept the word hey,bye,password, curse words anyone of these words!
 password has to be 9 words long less than 32 letters
 password must contain 2 punctuation, 2 letter or more, 2 capital letters, must have 2 more math symbols,  */
@@ -9,6 +11,17 @@ password must contain 2 punctuation, 2 letter or more, 2 capital letters, must h
 // the word interface can be thought as a contract of a service between two application. 
 // And then API is basically how When we program we try to 
 // use our software to come into contract with another application. 
+
+
+// FizzBuzz (Logic Check): Write a program that prints numbers from 1 to 20. For multiples of 3, print "Fizz"; for multiples of 5, print "Buzz"; for multiples of both, print "FizzBuzz."
+
+// Unique Characters: Given a string, determine if it has all unique characters. (Hint: Think about using a Set or a Hash Map).
+
+// Array Filtering: Given an array of integers, write a function that returns a new array containing only the even numbers.
+
+// Palindrome Check: Write a function that checks if a word is the same forwards and backwards. (Example: "racecar" is true).
+
+// Find the Maximum: Given an array of numbers, find the largest value without using a built-in Math.max() function on the whole array.
 
 //String reversal, return a new string with the character in reverse order. 
 
@@ -22,4 +35,24 @@ string reversal(string word){
 
     return reversedWord;
     //Now finally we print back of the array by printing the ending size of the array.
+}
+
+int fizzbuzz(int x){
+    for(int i =1;i <=x; i++){
+        if(i%3 == 0){
+           cout<<"Fizz"<<endl; //print Fizz
+        }else if(i%5 ==0){
+            cout<<"Buzz"<<<<endl;
+        }else if(i%3==0 && i%5==0){
+            cout<<"FizzBuzz"<<endl;
+        }
+    }
+    return x;
+}
+
+int main(){
+    int x;
+    cout<<"enter a number:"<<endl;
+    cin >>x;
+    fizzbuzz(x);
 }
