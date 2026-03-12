@@ -119,7 +119,19 @@ bool hasUnique(string word){
     return true;
 }
 
+int findMax(vector<int>& nums){
+    if(nums.empty()){//base case , check if its empty
+        return 0;
+    }
+    int currentMax = nums[0];// Set the first index into a var.
 
+    for(int i =1; i<nums.size();i++){ //loop to compare the index. if higher store it
+        if(nums[i]>currentMax){
+            currentMax = nums[i];
+        }
+    }
+    return currentMax; //return the max.
+}
 
 int main()
 {
