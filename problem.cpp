@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <unordered_set>
 using namespace std;
 /*Create a password that doesnt accept the word hey,bye,password, curse words anyone of these words!
 password has to be 9 words long less than 32 letters
@@ -103,7 +104,16 @@ vector<int> conVertEven(vector<int>& nums){
             even.push_back(nums[i]);
         }
     }
+
+    return even;
 }
+
+bool hasUnique(string word){
+    unordered_set<char> seen;
+
+}
+
+
 
 int main()
 {
