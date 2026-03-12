@@ -88,7 +88,7 @@ int main()
     int x;
     string y;
     cout << "Give a word" << endl;
-    cin >> y;
+    getline(cin, y); 
     cout << "Reversed: " << reversal(y) << endl;
     cout << "enter a number:" << endl;
     cin >> x;
