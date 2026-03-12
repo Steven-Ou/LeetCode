@@ -51,6 +51,26 @@ int fizzbuzz(int x){
     }
     return 0;
 }
+//A method of using strings and adding it into output 
+    // void fizzbuzz(int x){
+    //     for(int i=0;i<=x;i++){
+    //         string output = "";
+    //         if(i%3==0){
+    //             output+="Buzz";
+    //         }
+
+    //         if(i%5 ==0){
+    //             output+="Fizz";
+    //         }
+
+    //         if(output==""){
+    //             cout<<i<<endl;
+    //         }else{
+    //             cout<<output<<endl;
+    //         }
+
+    //     }
+    // }
 
 int main(){
     int x;
