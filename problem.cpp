@@ -12,9 +12,14 @@ password must contain 2 punctuation, 2 letter or more, 2 capital letters, must h
 
 //String reversal, return a new string with the character in reverse order. 
 
-int reversal(string word){
+string reversal(string word){
     //We need to store word into a temp 
     string reversedWord = ""; 
     //Now we need to loop through the word and store them into an array
+    for(int i = word.size()-1; i>=0;i--){
+        reversedWord += word[i];
+    }
+
+    return reversedWord;
     //Now finally we print back of the array by printing the ending size of the array.
 }
