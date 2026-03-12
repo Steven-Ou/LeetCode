@@ -9,3 +9,12 @@ password must contain 2 punctuation, 2 letter or more, 2 capital letters, must h
 // the word interface can be thought as a contract of a service between two application. 
 // And then API is basically how When we program we try to 
 // use our software to come into contract with another application. 
+
+//String reversal, return a new string with the character in reverse order. 
+
+int reversal(int a[], string word){
+    //We need to store word into a temp 
+    string temp = word; 
+    //Now we need to loop through the word and store them into an array
+    //Now finally we print back of the array by printing the ending size of the array.
+}
