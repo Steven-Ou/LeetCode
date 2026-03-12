@@ -108,13 +108,13 @@ vector<int> conVertEven(vector<int>& nums){
     return even;
 }
 
-bool hasUnique(string word){
-    unordered_set<char> seen;
+bool hasUnique(string word){ 
+    unordered_set<char> seen; // Using this variable to store 
     for(char c : word){
-        if(seen.count(c)>0){
+        if(seen.count(c)>0){ //IF this varaibles count c and its less than 0 , exit.
             return false; 
         }
-        seen.insert(c);
+        seen.insert(c); //Add the char into the unordered set. 
     }
     return true;
 }
