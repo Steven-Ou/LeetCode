@@ -93,7 +93,18 @@ bool Palindrome(int x ){
         left++;//continuing going to the next number
         right--;//Continuing going left.
     }
+    return true; 
 }
+vector<int> conVertEven(vector<int>& nums){
+    vector<int> evens;
+
+    for(int i =0;i<=nums.length();i++){
+        if(nums[i]%2==0){
+            even.push_back(nums[i]);
+        }
+    }
+}
+
 int main()
 {
     int x;
