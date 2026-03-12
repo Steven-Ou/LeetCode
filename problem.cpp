@@ -39,15 +39,17 @@ string reversal(string word){
 
 int fizzbuzz(int x){
     for(int i =1;i <=x; i++){
-        if(i%3 == 0){
-           cout<<"Fizz"<<endl; //print Fizz
-        }else if(i%5 ==0){
-            cout<<"Buzz"<<<<endl;
-        }else if(i%3==0 && i%5==0){
-            cout<<"FizzBuzz"<<endl;
+        if(i%3 ==0 && i%5==0){
+            cout<<"FizzBuzz"<<i<<endl;
+        }else if(i%3 ==0){
+            cout<<"Fizz"<<endl;
+        }else if(i%5|| i%5==0){
+            cout<<"Buzz"<<endl;
+        }else{
+            cout<<i<<endl; 
         }
     }
-    return x;
+    return 0;
 }
 
 int main(){
