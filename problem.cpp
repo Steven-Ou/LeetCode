@@ -110,7 +110,13 @@ vector<int> conVertEven(vector<int>& nums){
 
 bool hasUnique(string word){
     unordered_set<char> seen;
-
+    for(char c : word){
+        if(seen.count(c)>0){
+            return false; 
+        }
+        seen.insert(c);
+    }
+    return true;
 }
 
 
