@@ -82,7 +82,13 @@ int fizzbuzz(int x)
 
 //     }
 // }
-
+bool Palindrome(int x ){
+    left= 0;
+    right= x.length()-1;
+    while(left<right){
+        
+    }
+}
 int main()
 {
     int x;
