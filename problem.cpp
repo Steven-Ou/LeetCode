@@ -84,7 +84,7 @@ int fizzbuzz(int x)
 //     }
 // }
 //In palindrome the letter of the ending and beginning must be the same. 
-bool Palindrome(int x ){
+bool Palindrome(string x ){
     int left= 0;
     int right= x.length()-1;
     while(left<right){
@@ -99,13 +99,13 @@ bool Palindrome(int x ){
 vector<int> conVertEven(vector<int>& nums){
     vector<int> evens;
 
-    for(int i =0;i<=nums.length();i++){
+    for(int i =0;i<nums.size();i++){
         if(nums[i]%2==0){
-            even.push_back(nums[i]);
+            evens.push_back(nums[i]);
         }
     }
 
-    return even;
+    return evens;
 }
 
 bool hasUnique(string word){ 
