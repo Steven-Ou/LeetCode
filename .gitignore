@@ -1,0 +1,16 @@
+# Build folders
+bin/
+obj/
+
+# C++ binaries
+a.out
+*.exe
+*.out
+
+# VS Code directory
+.vscode/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
