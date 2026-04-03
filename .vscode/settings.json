@@ -59,7 +59,7 @@
       "previewLimit": 50,
       "driver": "SQLite",
       "name": "Practice",
-      "database": "practice.db"
+      "database": "${workspaceFolder:LeetCode}/practice.db"
     }
   ],
   "sqltools.useNodeRuntime": true
