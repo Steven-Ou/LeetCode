@@ -21,4 +21,16 @@ SELECT p.Name,
 FROM Patients p
     LEFT JOIN Appointments a ON p.PatientID = a.PatientID
 GROUP BY p.Name;
+CREATE TABLE IF NOT EXISTS Doctors (
+    DocID INTEGER PRIMARY KEY,
+    Name TEXT,
+    ApptID INTEGER PRIMARY KEY,
+    PatientID INTEGER,
+    ApptDate DATE
+)
+INSERT INTO Doctors (Name)
+VALUES ('Cindy'),
+    ('Leo'),
+    ('Charlene'),
+    ('Tiffany');
 
