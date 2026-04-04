@@ -1,5 +1,8 @@
-CREATE TABLE IF NOT EXISTS Patients (PatientID INTEGER PRIMARY KEY, Name TEXT);
-CREATE TABLE IF NOT EXISTS Appointments (
+DROP TABLE IF EXISTS Doctors;
+DROP TABLE IF EXISTS Appointments;
+DROP TABLE IF EXISTS Patients;
+CREATE TABLE Patients (PatientID INTEGER PRIMARY KEY, Name TEXT);
+CREATE TABLE  Appointments (
     ApptID INTEGER PRIMARY KEY,
     PatientID INTEGER,
     ApptDate DATE
@@ -21,23 +24,19 @@ SELECT p.Name,
 FROM Patients p
     LEFT JOIN Appointments a ON p.PatientID = a.PatientID
 GROUP BY p.Name;
-CREATE TABLE IF NOT EXISTS Doctors (
+CREATE TABLE Doctors (
     DocID INTEGER PRIMARY KEY,
-    Name TEXT,
-    ApptID INTEGER PRIMARY KEY,
-    PatientID INTEGER,
-    ApptDate DATE
-)
+    Name TEXT
+);
 INSERT INTO Doctors (Name)
 VALUES ('Cindy'),
     ('Leo'),
     ('Charlene'),
     ('Tiffany');
-SELECT p.name
-FROM Patients p
-    LEFT JOIN Appointment a on p.PatientID = a.PatientID
+ALTER TABLE Appointments ADD COLUMN DocID INTEGER;
+UPDATE Appointments SET DocID = 1 WHERE ApptID = 1;
+UPDATE Appointments SET DocID = 2 WHERE ApptID = 2;
+SELECT d.name AS "Doctor With No Appts"
+FROM Doctors d
+    LEFT JOIN Appointment a on d.DocID = a.DocID
 WHERE a.ApptID IS NULL;
-SELECT b.time
-FROM Appointment b
-    LEFT JOIN Doctors c on b.ApptID = c.ApptID
-WHERE b.Docname IS NULL;
