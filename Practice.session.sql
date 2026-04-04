@@ -1,12 +1,8 @@
-CREATE TABLE Patient(
-    PatientID INTEGER PRIMARY KEY,
-    Name TEXT
-);
-CREATE TABLE Appointment(
+CREATE TABLE IF NOT EXISTS Patients (PatientID INTEGER PRIMARY KEY, Name TEXT);
+CREATE TABLE IF NOT EXISTS Appointments (
     ApptID INTEGER PRIMARY KEY,
     PatientID INTEGER,
-    ApptDate DATE,
-    FOREIGN KEY (PatientID) REFERENCES patients(PatientID)
+    ApptDate DATE
 );
 INSERT INTO Patients (Name)
 VALUES ('Steven'),
@@ -16,3 +12,7 @@ VALUES ('Steven'),
 INSERT INTO Appointments (PatientID, ApptDate)
 VALUES (1, '2026-04-01'),
     (3, '2026-03-15');
+SELECT p.Name
+FROM Patients p
+    LEFT JOIN Appointments a ON p.PatientID = a.PatientID
+WHERE a.ApptID IS NULL;
