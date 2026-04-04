@@ -16,3 +16,9 @@ SELECT p.Name
 FROM Patients p
     LEFT JOIN Appointments a ON p.PatientID = a.PatientID
 WHERE a.ApptID IS NULL;
+SELECT p.Name,
+    COUNT(a.ApptID) AS TotalAppointments
+FROM Patients p
+    LEFT JOIN Appointments a ON p.PatientID = a.PatientID
+GROUP BY p.Name;
+
