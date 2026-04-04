@@ -33,4 +33,11 @@ VALUES ('Cindy'),
     ('Leo'),
     ('Charlene'),
     ('Tiffany');
-
+SELECT p.name
+FROM Patients p
+    LEFT JOIN Appointment a on p.PatientID = a.PatientID
+WHERE a.ApptID IS NULL;
+SELECT b.time
+FROM Appointment b
+    LEFT JOIN Doctors c on b.ApptID = c.ApptID
+WHERE b.Docname IS NULL;
