@@ -40,3 +40,10 @@ public class Program
         return true; 
     }
 }
+
+public class AppointmentDetail
+{
+    public string PatientName { get; set; }
+    public string DoctorName { get; set; }
+    public DateTime AppointmentDate { get; set; }
+}
