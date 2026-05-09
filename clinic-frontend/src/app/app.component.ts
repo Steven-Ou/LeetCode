@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'clinic-frontend';
+  doctors = [
+    { name: 'Cindy', appointmentCount: 1 },
+    { name: 'Leo', appointmentCount: 2 },
+    { name: 'Charlene', appointmentCount: 0 }
+  ];
 }
