@@ -1,0 +1,10 @@
+.badge {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+/* Add a hover effect to rows to make it feel interactive */
+tr:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
